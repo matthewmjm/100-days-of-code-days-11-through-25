@@ -30,6 +30,9 @@ print("You went over.  You lose 😤")
 print(" Do you want to play a game of Blackjack? Type 'y' or 'n': ")
 
 print("You went over.  You lose 😭")
+print("Lose, opponent has Blackjack 😱")
+print("Win with a Blackjack 😎")
+print("Opponent went over.  You wim 😁")
 print("You lose 😤")
 print("You win 😃")
 
