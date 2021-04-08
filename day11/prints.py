@@ -37,3 +37,5 @@ print("You lose 😤")
 print("You win 😃")
 
 print("Your final hand: [8, 10], final score 18")
+
+print("\n\n\nGood-bye!\nCome Back Soon!\n\n")
