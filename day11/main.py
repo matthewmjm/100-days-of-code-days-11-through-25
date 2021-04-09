@@ -40,7 +40,7 @@ if play_game == 'y':
     hit_me = input("Type 'y' to get another card, type 'n' to pass: ")
     if hit_me == 'n':
         my_turn = False
-        while computer_score < 21:
+        while computer_score < 21 and computer_score < my_score:
             computer_cards.append(deal_card())
             computer_score = sum(computer_cards)
     else:
@@ -54,15 +54,15 @@ if play_game == 'y':
             else: 
                 hit_me = input("Type 'y' to get another card, type 'n' to pass: ")
                 if hit_me != 'y':
-                    while computer_score < my_score or computer_score < 22:
+                    while computer_score < 21 and computer_score < my_score:
                         computer_cards.append(deal_card())
                         computer_score = sum(computer_cards)
                     my_turn = False
-    if my_score > 22 and computer_score < 22:
+    if my_score > 21 and computer_score < 22:
         print(f"\n Your final hand: {my_cards}, final score: {my_score}")
         print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
         print("You went over.  You lose! 😭")
-    elif my_score < 22 and computer_score > 22:
+    elif my_score < 22 and computer_score > 21:
         print(f"\n Your final hand: {my_cards}, final score: {my_score}")
         print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
         print("Opponent went over.  You win! 😁")
