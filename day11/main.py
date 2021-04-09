@@ -40,7 +40,7 @@ if play_game == 'y':
     hit_me = input("Type 'y' to get another card, type 'n' to pass: ")
     if hit_me == 'n':
         my_turn = False
-        while computer_score < 22:
+        while computer_score < 21:
             computer_cards.append(deal_card())
             computer_score = sum(computer_cards)
     else:
