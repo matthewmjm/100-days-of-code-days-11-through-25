@@ -49,7 +49,7 @@ if play_game == 'y':
             my_score = sum(my_cards)
             print(f" Your cards: [{my_cards}, current score: {my_score}")
             print(f" Computer's first card: {computer_score}")
-            if my_score > 21:
+            if my_score >= 21:
                 my_turn = False
             else: 
                 hit_me = input("Type 'y' to get another card, type 'n' to pass: ")
