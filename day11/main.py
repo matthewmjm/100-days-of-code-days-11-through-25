@@ -39,24 +39,69 @@ if play_game == 'y':
     print(f" Computer's first card: {computer_score}")
     hit_me = input("Type 'y' to get another card, type 'n' to pass: ")
     if hit_me == 'n':
+        my_turn = False
         while computer_score < 22:
             computer_cards.append(deal_card())
             computer_score = sum(computer_cards)
-            print(f" Computer's final hand: [{computer_cards}, final score: {computer_score}")
     else:
-        while my_score < 22:
+        while my_turn:
             my_cards.append(deal_card())
             my_score = sum(my_cards)
             print(f" Your cards: [{my_cards}, current score: {my_score}")
             print(f" Computer's first card: {computer_score}")
-            hit_me = input("Type 'y' to get another card, type 'n' to pass: ")
-            if hit_me == 'n':
-                while computer_score < 22:
-                    computer_cards.append(deal_card())
-                    computer_score = sum(computer_cards)
-                    print(f" Computer's final hand: [{computer_cards}, final score: {computer_score}")
+            if my_score > 21:
+                my_turn = False
+            else: 
+                hit_me = input("Type 'y' to get another card, type 'n' to pass: ")
+                if hit_me != 'y':
+                    while computer_score < my_score or computer_score < 22:
+                        computer_cards.append(deal_card())
+                        computer_score = sum(computer_cards)
+                    my_turn = False
+    if my_score > 22 and computer_score < 22:
+        print(f"\n Your final hand: {my_cards}, final score: {my_score}")
+        print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
+        print("You went over.  You lose! 😭")
+    elif my_score < 22 and computer_score > 22:
+        print(f"\n Your final hand: {my_cards}, final score: {my_score}")
+        print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
+        print("Opponent went over.  You win! 😁")
+    elif my_score < 22 and my_score > computer_score:
+        print(f"\n Your final hand: {my_cards}, final score: {my_score}")
+        print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
+        print("You win 😃")
+    elif computer_score < 22 and computer_score > my_score:
+        print(f"\n Your final hand: {my_cards}, final score: {my_score}")
+        print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
+        print("You lose 😤")
+    else:
+        print(f"\n Your final hand: {my_cards}, final score: {my_score}")
+        print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
+        print("It is a draw! 🙃")
 
-print(my_cards)
-print(my_score)
-print(computer_cards)
-print(computer_score)
+
+
+
+# def me_over():
+#     print(f"\n Your final hand: {my_cards}, final score: {my_score}")
+#     print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
+#     print("You went over.  You lose! 😭")
+
+# def computer_over():
+#     print(f"\n Your final hand: {my_cards}, final score: {my_score}")
+#     print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
+#     print("Opponent went over.  You win! 😁")
+
+# def draw():
+#     print(f"\n Your final hand: {my_cards}, final score: {my_score}")
+#     print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
+#     print("Opponent went over.  You win! 😁")
+
+
+
+# print(my_cards)
+# print(my_score)
+# print(f" Your final hand: {my_cards}, final score: {my_score}")
+# print(computer_cards)
+# print(computer_score)
+# print(f" Computer's final hand: {computer_cards}, final score: {computer_score}")
