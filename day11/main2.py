@@ -12,3 +12,6 @@ def deal_cards():
 
 def calculate_scores(cards):
     return sum(cards)
+
+
+print(cards)
