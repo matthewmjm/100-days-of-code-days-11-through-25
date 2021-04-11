@@ -14,12 +14,12 @@ My projects from 100 Days of Code Challenge (Days 11 through 25)
 
 **Link to work:** [Blackjack](https://replit.com/@matthewmjm/Blackjack#main.py)
 
-### Day 12: April 9, 2021
+### Day 12: April 11, 2021
 
-**Today's Topics**: Python: .
+**Today's Topics**: Python: Namespaces: Local vs. Global Scope and Python (Global) Constants & Global Scope.
 
-**Today's Progress**: .
+**Today's Progress**: After working on my last project and Day 10, I ran into some scope issues and wanted to get some clarification on how scope works in Python. I learned about Global Scope and Local Scope, how to modify Global scope with 'global' inside a function (but it is best practice that you try not to - perhaps manipulated global scope with a function that returns the modification, if necessary). Also, I learned about constants in Python, which are designated by all capital letters in the name. These are not to be changed. I also learned that Python does not have block scope. Today's project was using what I learned today to create a CLI number guessing game.
 
-**Thoughts:** .
+**Thoughts:** The deeper I go into Python, the more I have to compare it to a language that I know very well, JavaScript. There are differences between the two. Like Python does not have hoisting, like JavaScript. I believe as I make note of the differences, it will benefit me greatly as I switch between the two.
 
-**Link to work:** [XXXXX](https://replit.com/@matthewmjm/xxxxx#main.py)
+**Link to work:** [Number Guessing Game](https://replit.com/@matthewmjm/Number-Guessing-Game#main.py)

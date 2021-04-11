@@ -2,5 +2,12 @@
   "[javascript]": {
     "editor.formatOnSave": true
   },
-  "prettier.semi": false
+  "prettier.semi": false,
+
+  "workbench.colorCustomizations": {
+    "titleBar.activeForeground": "#ffffff",
+    "titleBar.inactiveForeground": "#ffffffcc",
+    "titleBar.activeBackground": "#1903e0",
+    "titleBar.inactiveBackground": "#1903e0CC"
+  }
 }
