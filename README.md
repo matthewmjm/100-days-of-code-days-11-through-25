@@ -23,3 +23,23 @@ My projects from 100 Days of Code Challenge (Days 11 through 25)
 **Thoughts:** The deeper I go into Python, the more I find myself comparing it to a language that I know very well, JavaScript. There are differences between the two. Like Python does not have hoisting, like JavaScript. I believe as I make note of the differences, it will benefit me greatly as I switch between the two.
 
 **Link to work:** [Number Guessing Game](https://replit.com/@matthewmjm/Number-Guessing-Game#main.py)
+
+### Day 13: April 12, 2021
+
+**Today's Topics**: JavaScript: .
+
+**Today's Progress**: .
+
+**Thoughts:** .
+
+**Link to work:** [XXX XXX](https://replit.com/@matthewmjm/XXX-XXX#main.py)
+
+### Day 14: April 13, 2021
+
+**Today's Topics**: Python: .
+
+**Today's Progress**: .
+
+**Thoughts:** .
+
+**Link to work:** [Higher Lower Game](https://replit.com/@matthewmjm/Higher-Lower-Game#main.py)
