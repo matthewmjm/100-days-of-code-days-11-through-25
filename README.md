@@ -26,13 +26,13 @@ My projects from 100 Days of Code Challenge (Days 11 through 25)
 
 ### Day 13: April 12, 2021
 
-**Today's Topics**: JavaScript: .
+**Today's Topics**: JavaScript: Event Listeners and Query Selectors.
 
 **Today's Progress**: Deciding to take a day off of Python and code with JavaScript. I used "JavaScript30" by Wes Bos for today's project. This was to build a JS Drum Kit. The first thing that was new to me was this concept of HTML custom attributes that are prefixed by "data-"\*. In this project, the custom attribute was "data-key" which corresponding to the value of the JavaScript keycode (see keycode.info) which provides the value (keycode) of each key on the keyboard. For instance, the 'a' key is 65. This is what is used to signal which audio (wav) file is played by your browser. This project also focuses on event listeners (pressing key) and querySelector (for audio that corresponds to the key). Also, it worth pointing out the the keyCode property on the keyboard event has since been deprecated.
 
 **Thoughts:** This was a really fun JavaScript project. It was not as easy as I thought when it came to the CSS in getting the key on the browser window to slightly raise and fall and the border turn yellow.
 
-**Link to work:** [JavaScript Drum Kit](https://github.com/matthewmjm/100-days-of-code-days-11-through-25/tree/master/day13)
+**Link to work:** [JavaScript Drum Kit](https://replit.com/@matthewmjm/JavaScript-Drum-Kit#index.html) JavaScript-Drum-Kit
 
 ### Day 14: April 13, 2021
 
