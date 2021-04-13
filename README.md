@@ -28,11 +28,11 @@ My projects from 100 Days of Code Challenge (Days 11 through 25)
 
 **Today's Topics**: JavaScript: .
 
-**Today's Progress**: .
+**Today's Progress**: Deciding to take a day off of Python and code with JavaScript. I used "JavaScript30" by Wes Bos for today's project. This was to build a JS Drum Kit. The first thing that was new to me was this concept of HTML custom attributes that are prefixed by "data-"\*. In this project, the custom attribute was "data-key" which corresponding to the value of the JavaScript keycode (see keycode.info) which provides the value (keycode) of each key on the keyboard. For instance, the 'a' key is 65. This is what is used to signal which audio (wav) file is played by your browser. This project also focuses on event listeners (pressing key) and querySelector (for audio that corresponds to the key). Also, it worth pointing out the the keyCode property on the keyboard event has since been deprecated.
 
 **Thoughts:** .
 
-**Link to work:** [XXX XXX](https://replit.com/@matthewmjm/XXX-XXX#main.py)
+**Link to work:** [JavaScript Drumkit](https://replit.com/@matthewmjm/XXX-XXX#main.py)
 
 ### Day 14: April 13, 2021
 
